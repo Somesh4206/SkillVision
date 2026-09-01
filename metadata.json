@@ -1,0 +1,6 @@
+{
+  "name": "SkillVision AI",
+  "description": "Multi-agent career guidance, resume analyzer, skill assessment, career recommendation, learning roadmap, technical interview coach, and placement preparation assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
