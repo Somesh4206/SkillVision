@@ -1,0 +1,19 @@
+# robots.txt for SkillVision - Career Guidance Platform
+User-agent: *
+Allow: /
+Allow: /dashboard
+Allow: /interview
+Allow: /job-matcher
+Allow: /resume-analyzer
+Allow: /skill-assessment
+Allow: /learning-roadmap
+
+# Disallow admin or private routes if any
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://skillvisionai.onrender.com/sitemap.xml
+
+# Crawl-delay for better server performance
+Crawl-delay: 1
