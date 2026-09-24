@@ -1,19 +1,36 @@
 # robots.txt for SkillVision - Career Guidance Platform
+# Optimized for SEO and search engine crawling
+
+# Allow all search engines to crawl everything
 User-agent: *
 Allow: /
-Allow: /dashboard
-Allow: /interview
-Allow: /job-matcher
-Allow: /resume-analyzer
-Allow: /skill-assessment
-Allow: /learning-roadmap
+Allow: /?tab=*
+Allow: /assets/
+Allow: /src/
 
-# Disallow admin or private routes if any
+# Special rules for Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Allow Google Image Bot
+User-agent: Googlebot-Image
+Allow: /
+
+# Allow Google Mobile
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Disallow admin or API routes (if any exist)
 Disallow: /api/
 Disallow: /admin/
+Disallow: /*.json$
 
-# Sitemap location
+# Sitemap location (critical for SEO)
 Sitemap: https://skillvisionai.onrender.com/sitemap.xml
 
-# Crawl-delay for better server performance
-Crawl-delay: 1
+# No crawl delay for major search engines (faster indexing)
+Crawl-delay: 0
+
+# Host directive (helps search engines understand the primary domain)
+Host: https://skillvisionai.onrender.com
