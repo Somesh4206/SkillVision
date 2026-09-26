@@ -27,7 +27,7 @@ import {
 } from './server/agents';
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT ? Number(process.env.PORT) : 3000;
 const JWT_SECRET = process.env.JWT_SECRET || 'careerpilot-super-secret-key';
 
 // Increase payload limits for resume uploads
@@ -1522,7 +1522,10 @@ app.get('/api/dashboard-summary', authenticateToken, (req: AuthenticatedRequest,
 
 // --- Integration with Vite Dev Server / Static Files Serving ---
 async function startServer() {
-  if (process.env.NODE_ENV === 'production') {
+  const distIndex = path.join(process.cwd(), 'dist', 'index.html');
+  const isProduction =
+    process.env.NODE_ENV === 'production' || fs.existsSync(distIndex);
+  if (isProduction) {
     // Serve static files in production
     const distPath = path.join(process.cwd(), 'dist');
     app.use(express.static(distPath));
