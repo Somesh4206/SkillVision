@@ -18,7 +18,7 @@
 
   <!-- Main Homepage - Primary Entry Point -->
   <url>
-    <loc>https://skillvisionai.onrender.com/</loc>
+    <loc>__SITE_URL__/</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -27,7 +27,7 @@
 
   <!-- Dashboard - Main Application Interface -->
   <url>
-    <loc>https://skillvisionai.onrender.com/?tab=dashboard</loc>
+    <loc>__SITE_URL__/?tab=dashboard</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -36,7 +36,7 @@
 
   <!-- Resume Analyzer - AI-Powered ATS Score Analysis -->
   <url>
-    <loc>https://skillvisionai.onrender.com/?tab=resume</loc>
+    <loc>__SITE_URL__/?tab=resume</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -45,7 +45,7 @@
 
   <!-- Skill Assessment - Interactive Programming & Aptitude Tests -->
   <url>
-    <loc>https://skillvisionai.onrender.com/?tab=assessment</loc>
+    <loc>__SITE_URL__/?tab=assessment</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -54,7 +54,7 @@
 
   <!-- Learning Roadmap - Personalized Career Development Path -->
   <url>
-    <loc>https://skillvisionai.onrender.com/?tab=roadmap</loc>
+    <loc>__SITE_URL__/?tab=roadmap</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -63,7 +63,7 @@
 
   <!-- Job Matching Engine - AI-Powered Job Recommendations -->
   <url>
-    <loc>https://skillvisionai.onrender.com/?tab=jobs</loc>
+    <loc>__SITE_URL__/?tab=jobs</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -72,7 +72,7 @@
 
   <!-- Mock Interview Practice - HR & Behavioral Questions -->
   <url>
-    <loc>https://skillvisionai.onrender.com/?tab=interview</loc>
+    <loc>__SITE_URL__/?tab=interview</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -81,7 +81,7 @@
 
   <!-- Technical Interview Coach - Project-Based Questions -->
   <url>
-    <loc>https://skillvisionai.onrender.com/?tab=tech_interview</loc>
+    <loc>__SITE_URL__/?tab=tech_interview</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -90,7 +90,7 @@
 
   <!-- Progress Tracker - Career Development Analytics -->
   <url>
-    <loc>https://skillvisionai.onrender.com/?tab=progress</loc>
+    <loc>__SITE_URL__/?tab=progress</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

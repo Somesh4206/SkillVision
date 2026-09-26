@@ -27,10 +27,7 @@ Disallow: /admin/
 Disallow: /*.json$
 
 # Sitemap location (critical for SEO)
-Sitemap: https://skillvisionai.onrender.com/sitemap.xml
+Sitemap: __SITE_URL__/sitemap.xml
 
 # No crawl delay for major search engines (faster indexing)
 Crawl-delay: 0
-
-# Host directive (helps search engines understand the primary domain)
-Host: https://skillvisionai.onrender.com
